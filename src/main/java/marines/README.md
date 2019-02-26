@@ -1,13 +1,14 @@
 # Strategy
 Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
-![Real world](https://github.com/CristelhM/Testing/blob/marines-command/resources/strategy.png)
+![Real world](https://github.com/CristelhM/Testing/blob/marines-strategy/resources/strategy.png)
 
 ## Real-World Analogy
-![Real world](https://github.com/CristelhM/Testing/blob/marines-command/resources/strategy_comic_1.png)
+![Real world](https://github.com/CristelhM/Testing/blob/marines-strategy/resources/strategy_comic_1.png)
+
 Imagine that you have to get to the airport. You can catch a bus, order a cab, or get on your bicycle. These are your transportation strategies. You can pick one of the strategies depending on factors such as budget or time constraints.
 
 ## Structure
-![Structure](https://github.com/CristelhM/Testing/blob/marines-command/resources/strategy_structure.png)
+![Structure](https://github.com/CristelhM/Testing/blob/marines-strategy/resources/strategy_structure.png)
 
 ## Example
 Let's use the example of a file compression tool - where we create either zip or rar files. 
