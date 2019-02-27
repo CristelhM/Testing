@@ -21,4 +21,13 @@ public class Light {
     public void switchOff() {
         on = false;
     }
+
+    /**
+     * Say if the light is on or off.
+     * 
+     * @return boolean
+     */
+    public boolean isOn() {
+        return on;
+    }
 }
