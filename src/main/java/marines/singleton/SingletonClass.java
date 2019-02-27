@@ -7,7 +7,7 @@ package main.java.marines.singleton;
  */
 public class SingletonClass {
 
-	private static SingletonClass SINGLE_INSTANCE = null;
+	private static SingletonClass singleInstance = null;
 
 	private SingletonClass() {
 	}
@@ -18,11 +18,11 @@ public class SingletonClass {
 	 * @return SingletonClass
 	 */
 	public static SingletonClass getInstance() {
-		if (SINGLE_INSTANCE == null) {
+		if (singleInstance == null) {
 			synchronized (SingletonClass.class) {
-				SINGLE_INSTANCE = new SingletonClass();
+				singleInstance = new SingletonClass();
 			}
 		}
-		return SINGLE_INSTANCE;
+		return singleInstance;
 	}
 }
